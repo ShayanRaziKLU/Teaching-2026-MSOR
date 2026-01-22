@@ -1,0 +1,1 @@
+print("Hello MSOR Class 2026!")

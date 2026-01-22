@@ -1,0 +1,3 @@
+Name: Felix
+Surname: P.
+Objective: venv. is acivated
