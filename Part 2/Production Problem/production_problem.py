@@ -79,6 +79,7 @@ def create_model_generic():
 
     return myModel
 
+
 def solve_model_with_default_solver(myModel):
     """
     Solves the linear model using PuLP's default solver (CBC solver).
