@@ -728,17 +728,17 @@ if __name__ == "__main__":
     # Random policy
     print("RANDOM POLICY")
     policy = PolicyRandom()
-    # mc_policy_evaluation(env, policy, discount=0.9, num_episodes=1000, first_visit=True, seed=2506)
+    mc_policy_evaluation(env, policy, discount=0.2, num_episodes=1000, first_visit=True, seed=2506)
     
     # SARSA
-    print("TD SARSA")
-    policy = PolicySARSA()
-    policy._learn(env, discount=0.9, epsilon=0.4, learning_rate=0.01, num_updates=500, seed=2506)
-    print(policy.Q)
+    #print("TD SARSA")
+    #policy = PolicySARSA()
+    #policy._learn(env, discount=0.9, epsilon=0.4, learning_rate=0.01, num_updates=500, seed=2506)
+    #print(policy.Q)
     # mc_policy_evaluation(env, policy, discount=0.9, num_episodes=1000, first_visit=True, seed=2506)
 
     # Q-Learning
-    print("TD Q-Learning")
-    policy = PolicyQLearning()
+    #print("TD Q-Learning")
+    #policy = PolicyQLearning()
     # policy._learn(env, discount=0.9, epsilon=0.4, learning_rate=0.01, num_updates=20000, seed=2506)
     # mc_policy_evaluation(env, policy, discount=0.9, num_episodes=1000, first_visit=True, seed=2506)

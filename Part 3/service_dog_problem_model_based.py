@@ -206,7 +206,7 @@ if __name__ == "__main__":
 
     # Policy evaluation
     print("Policy evaluation (random policy)")
-    policy_evaluation(states, policy, reward, transition_prob, discount=0.9)
+    policy_evaluation(states, policy, reward, transition_prob, discount=0.2)
     
     # Value iteration
     # print("Value iteration (optimal policy)")
